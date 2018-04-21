@@ -2,23 +2,25 @@
 Boilerplate code for getting started on a node(backend), react(frontend) and Heroku(deployment).
 
 ##Setup
-1.added concurrently package to run node and client server together.
-2.added heroku postbuild script to build react client side to the public directory.
-3.added dev and prod keys. availaible in config directory.
-5.added proxy in ./client/package.json to proxy localhost:3000 request to localhost:5000.
+- concurrently package to run node and client server together.
+- heroku postbuild script to build react client side to the public directory.
+- dev and prod keys. availaible in config directory.
+- proxy in ./client/package.json to proxy localhost:3000 requests to localhost:5000.
 
-###downloading/cloning and installing dependencies directions.
+##Downloading/cloning and installing dependencies directions.
+- download/clone repository.
+- open terminal.
+- go to repo location, inside terminal window.
+- start typing.
 ```
-download/clone repository.
-cd to repo location.
-cd server
+cd server //don't type if already in server directory.
 cd client
 npm i //install client dependencies.
 cd ..
 npm i //install server dependencies.
 
 ```
-###running server and client concurrently
+##Running server and client concurrently
 
 ```
 //inside server directory run this command on terminal.
@@ -29,7 +31,7 @@ npm run dev
 ```
 
 
-###running server only
+##Running server only
 
 ```
 //inside server directory run this command on terminal.
@@ -39,7 +41,7 @@ npm run server
 //open localhost:5000 in browser.
 ```
 
-###running client only
+##Running client only
 
 ```
 //inside server directory run this command on terminal.
