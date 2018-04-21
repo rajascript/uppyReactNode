@@ -2,7 +2,7 @@
 
 Boilerplate code for getting started on a node(backend), react(frontend) and Heroku(deployment).
 
-# Node react+sass heroku is available on sass branch.
+# Node-react+sass-heroku is available on sass branch.
 
 ## Setup
 
@@ -19,7 +19,6 @@ Boilerplate code for getting started on a node(backend), react(frontend) and Her
 * start typing.
 
 ```
-cd server //don't type if already in server directory.
 cd client
 npm i //install client dependencies.
 cd ..
@@ -29,7 +28,7 @@ npm i //install server dependencies.
 ## Running server and client concurrently
 
 ```
-//inside server directory run this command on terminal.
+//inside repo directory run this command on terminal.
 
 npm run dev
 
@@ -39,7 +38,7 @@ npm run dev
 ## Running server only
 
 ```
-//inside server directory run this command on terminal.
+//inside repo directory run this command on terminal.
 
 npm run server
 
@@ -49,7 +48,7 @@ npm run server
 ## Running client only
 
 ```
-//inside server directory run this command on terminal.
+//inside repo directory run this command on terminal.
 
 npm run client
 
