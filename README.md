@@ -4,6 +4,8 @@ Boilerplate code for getting started on a node(backend), react(frontend) and Her
 
 # Node-react+sass-heroku is available on sass branch.
 
+# Node-react+sass+redux-heroku is available on sass branch.
+
 ## Setup
 
 * concurrently package to run node and client server together.
