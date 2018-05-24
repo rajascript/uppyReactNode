@@ -1,17 +1,7 @@
-# node-react-heroku-Boilerplate
+# uppy-react-node-s3 setup
 
-Boilerplate code for getting started on a node(backend), react(frontend) and Heroku(deployment).
+Uppy setup on react with node as backend and AWS s3 as upload destination.
 
-# Node-react+sass-heroku is available on sass branch.
-
-# Node-react+sass+redux-heroku is available on redux branch.
-
-## Setup
-
-* concurrently package to run node and client server together.
-* heroku postbuild script to build react client side to the public directory.
-* dev and prod keys. availaible in config directory.
-* proxy in ./client/package.json to proxy localhost:3000 requests to localhost:5000.
 
 ## Downloading/cloning and installing dependencies directions.
 
