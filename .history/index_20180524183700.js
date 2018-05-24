@@ -9,6 +9,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+require("./routes/users")(app);
+
 app.use(express.static(path.join(__dirname, "public")));
 
 const port = process.env.PORT || 5000;
