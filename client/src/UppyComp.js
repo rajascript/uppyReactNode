@@ -4,9 +4,6 @@ const Uppy = require("uppy/lib/core");
 const AwsS3 = require("uppy/lib/plugins/AwsS3");
 const GoogleDrive = require("uppy/lib/plugins/GoogleDrive");
 const Dropbox = require("uppy/lib/plugins/Dropbox");
-const Url = require("uppy/lib/plugins/Url");
-const Instagram = require("uppy/lib/plugins/Instagram");
-const Webcam = require("uppy/lib/plugins/Webcam");
 const { Dashboard } = require("uppy/lib/react");
 
 export default class UppyComp extends Component {
@@ -55,11 +52,11 @@ export default class UppyComp extends Component {
   render() {
     return (
       <div>
-        <Dashboard
+        <Dashboard //uppy dashboard component
           uppy={this.uppy}
           plugins={[
-            "GoogleDrive", //you can add more plugins here
-            "Dropbox"
+            "GoogleDrive",
+            "Dropbox"//you can add more plugins here
           ]}
         />
       </div>
